@@ -1,4 +1,4 @@
-module github.com/minio/minio-go/v7
+module github.com/bitdaddy89/minio-go
 
 go 1.17
 
@@ -23,3 +23,5 @@ require (
 	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
+
+replace github.com/minio/minio-go/v7=> github.com/bitdaddy89/minio-go
